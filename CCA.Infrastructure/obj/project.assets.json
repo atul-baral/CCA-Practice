@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CCA.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CCA.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CCA.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CCA.Application.dll": {}
+        }
+      },
+      "CCA.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CCA.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CCA.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CCA.Application/1.0.0": {
+      "type": "project",
+      "path": "../CCA.Application/CCA.Application.csproj",
+      "msbuildProject": "../CCA.Application/CCA.Application.csproj"
+    },
+    "CCA.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CCA.Domain/CCA.Domain.csproj",
+      "msbuildProject": "../CCA.Domain/CCA.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CCA.Application >= 1.0.0",
+      "CCA.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Atul Baral\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Infrastructure\\CCA.Infrastructure.csproj",
+      "projectName": "CCA.Infrastructure",
+      "projectPath": "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Infrastructure\\CCA.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Atul Baral\\.nuget\\packages\\",
+      "outputPath": "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Atul Baral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Application\\CCA.Application.csproj": {
+              "projectPath": "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Application\\CCA.Application.csproj"
+            },
+            "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Domain\\CCA.Domain.csproj": {
+              "projectPath": "E:\\MY_PROGRAMS\\DOT NET Projects\\CCA\\CCA-Practice\\CCA.Domain\\CCA.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
